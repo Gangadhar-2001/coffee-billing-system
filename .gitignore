@@ -1,0 +1,20 @@
+﻿# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and temporary files
+.vscode/
+.pytest_cache/
