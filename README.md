@@ -45,7 +45,7 @@ Windows PowerShell:
 ```powershell
 $env:SECRET_KEY = python -c "import secrets; print(secrets.token_urlsafe(48))"
 $env:ADMIN_USERNAME = 'admin'
-$env:ADMIN_PASSWORD = 'choose-a-long-unique-password'
+$env:ADMIN_PASSWORD = 'Coffeecorner@123'
 python app.py
 ```
 
